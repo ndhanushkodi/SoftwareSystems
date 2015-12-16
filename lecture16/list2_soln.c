@@ -12,6 +12,8 @@ License: Creative Commons Attribution-ShareAlike 3.0
 #include <stdlib.h>
 #include <assert.h>
 
+int len = 0;
+
 typedef struct node {
     int val;
     struct node * next;
